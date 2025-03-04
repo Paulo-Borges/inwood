@@ -26,7 +26,7 @@ body {
 }
 .header {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
 }
 .menu img {
@@ -41,6 +41,7 @@ body {
 }
 .list ul {
   display: flex;
+  gap: 20px;
 }
 .list img {
   width: 21px;
