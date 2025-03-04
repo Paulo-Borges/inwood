@@ -32,12 +32,14 @@ body {
 .menu img {
   width: 24px;
   height: 24px;
+  cursor: pointer;
 }
 .title img {
   width: 140px;
 }
 .list li {
   list-style: none;
+  cursor: pointer;
 }
 .list ul {
   display: flex;
@@ -45,4 +47,55 @@ body {
 }
 .list img {
   width: 21px;
+}
+.itens-container {
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-exclusive {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 288px;
+  margin-top: 206px;
+  font-family: "Playfair Display";
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: bold;
+  color: var(--primary-escuro);
+}
+.item-explore {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 287px;
+  margin-bottom: 52px;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: normal;
+  color: var(--primary-escuro);
+}
+.item-shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: var(--primary-claro);
+  width: 171px;
+  height: 55px;
+  border-radius: 8px;
+  margin-bottom: 206px;
+}
+.item-shop span {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: bold;
+  color: var(--secondary-cinza);
 }
