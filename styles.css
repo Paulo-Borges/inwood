@@ -1,0 +1,17 @@
+* {
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+:root {
+  --primary-claro: #70908b;
+  --primary-escuro: #07484a;
+  --secondary-verde: #caf3e5;
+  --secondary-cinza: #e0eff6;
+  --secondary-rosa: #eeebff;
+  --secondary-amarelo: #fff4e7;
+  --secondary-orange: #fdfbf8;
+}
+body {
+  font-family: "Open Sans";
+}
