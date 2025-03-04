@@ -14,4 +14,34 @@
 }
 body {
   font-family: "Open Sans";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.container {
+  max-width: 320px;
+  background: var(--secondary-rosa);
+  width: 100%;
+}
+.header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu img {
+  width: 24px;
+  height: 24px;
+}
+.title img {
+  width: 140px;
+}
+.list li {
+  list-style: none;
+}
+.list ul {
+  display: flex;
+}
+.list img {
+  width: 21px;
 }
