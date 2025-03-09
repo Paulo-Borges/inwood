@@ -2,6 +2,7 @@
   padding: 0px;
   margin: 0px;
   box-sizing: border-box;
+  list-style: none;
 }
 :root {
   --primary-claro: #70908b;
@@ -482,6 +483,41 @@ body {
   font-weight: normal;
 }
 .benefits {
-  margin-top: 30px;
-  background: #70908b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-top: 50px;
+  background: #e0eff6;
+}
+.benefits h1 {
+  font-family: "Playfair Display";
+  font-size: 28px;
+  font-weight: bold;
+  color: #07484a;
+  width: 288px;
+  margin-bottom: 104px;
+}
+.benefits-items img {
+  width: 108px;
+  height: 108px;
+  background: white;
+  padding: 15px;
+}
+.benefits-items h2 {
+  font-family: "Playfair Display";
+  font-size: 24px;
+  font-weight: bold;
+  color: #07484a;
+  width: 288px;
+  margin: 30px;
+}
+.benefits-items h3 {
+  font-family: "Opens Sans";
+  font-size: 18px;
+  font-weight: normal;
+  color: #07484a;
+  width: 288px;
+  margin: 30px;
 }
