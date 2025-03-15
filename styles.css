@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  height: 5905px;
+  height: 6905px;
 }
 .container {
   max-width: 320px;
@@ -589,4 +589,37 @@ body {
   background: #07484a;
   width: 213px;
   height: 1px;
+}
+.newsletter {
+  margin-top: 80px;
+}
+.newsletter-img {
+  background: #d9d9d9;
+  width: 320px;
+  height: 280px;
+}
+.newsletter-join h1 {
+  font-family: "Play Display";
+  font-size: 36px;
+  line-height: 52px;
+  font-weight: normal;
+  margin-top: 48px;
+  text-align: center;
+  color: #07484a;
+  width: 288px;
+}
+.newsletter-join span {
+  font-weight: bold;
+}
+.newsletter-join h2 {
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+  margin: 16px 0px 16px 8px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  color: #07484a;
+  width: 288px;
 }
