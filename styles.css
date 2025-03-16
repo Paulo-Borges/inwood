@@ -23,7 +23,7 @@ body {
 }
 .container {
   max-width: 320px;
-  /* background: yellow; */
+  border: 1px solid gray;
   width: 100%;
 }
 .header {
@@ -615,7 +615,7 @@ body {
 }
 .newsletter-join h2 {
   font-family: "Roboto";
-  font-size: 18px;
+  font-size: 20px;
   line-height: 23px;
   font-weight: normal;
   margin: 16px 0px 16px 8px;
@@ -623,36 +623,39 @@ body {
   align-items: center;
   justify-content: center;
   color: #07484a;
-  width: 288px;
+  width: 290px;
 }
 .newsletter-input {
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
-  margin: 20px 0px;
+  margin: 30px 0px;
 }
 .newsletter-input input {
   display: flex;
   justify-content: center;
+  text-align: center;
   align-items: center;
+  width: 100%;
   border: none;
   border-bottom: 1px solid #07484a;
 }
 .newsletter-input input::placeholder {
   color: #c4c4c4;
   font-family: "Roboto";
+  padding-left: 90px;
   font-size: 18px;
   line-height: 23px;
   font-weight: normal;
-  text-align: center;
-  align-items: center;
-  justify-content: center;
   width: 130px;
 }
 .newsletter-button{
   display: flex;
   justify-content: center;
-  align-items: center;
+  text-align: center;
+  border-radius: 6px;
+  margin: 0 auto;
   width: 250px;
   height: 68px;
   background: #70908b;
@@ -660,8 +663,6 @@ body {
 }
 .newsletter-button button{
   display: flex;
-  justify-content: center;
-  align-items: center;
   border: none;
   color: #fdfbf8;
   background: transparent;
@@ -672,4 +673,20 @@ body {
   align-items: center;
   justify-content: center;
   width: 107px;
+}
+.footer-info-img {
+  margin: 80px 0px 20px 10px;
+}
+.footer-info-img img {
+  display: block;
+  max-width: 100%;
+}
+.footer-info-rede ul {
+  display: flex;
+  justify-content: space-evenly;
+}
+.footer-info-rede li a {
+  display: flex;
+  width: 28px;
+  height: 28px;
 }
