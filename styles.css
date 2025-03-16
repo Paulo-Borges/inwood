@@ -19,7 +19,7 @@ body {
   justify-content: center;
   align-items: center;
   height: 100vh;
-  height: 6905px;
+  height: auto;
 }
 .container {
   max-width: 320px;
@@ -200,6 +200,7 @@ body {
 }
 .block-bedroom-explore span {
   display: flex;
+  cursor: pointer;
   justify-content: center;
   align-items: center;
   background: #e0eff6;
@@ -379,6 +380,7 @@ body {
 }
 .package-add h1 {
   display: flex;
+  cursor: pointer;
   width: 83px;
   color: #fdfbf8;
   font-family: "Open Sans";
@@ -622,4 +624,52 @@ body {
   justify-content: center;
   color: #07484a;
   width: 288px;
+}
+.newsletter-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 20px 0px;
+}
+.newsletter-input input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-bottom: 1px solid #07484a;
+}
+.newsletter-input input::placeholder {
+  color: #c4c4c4;
+  font-family: "Roboto";
+  font-size: 18px;
+  line-height: 23px;
+  font-weight: normal;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 130px;
+}
+.newsletter-button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 68px;
+  background: #70908b;
+  margin-bottom: 48px;
+}
+.newsletter-button button{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  color: #fdfbf8;
+  background: transparent;
+  font-family: "Roboto";
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  width: 107px;
 }
