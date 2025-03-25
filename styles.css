@@ -24,7 +24,6 @@ body {
 .container {
   max-width: 320px;
   margin: 20px 0px;
-  border: 1px solid gray;
   width: 100%;
 }
 .header {
@@ -656,7 +655,7 @@ body {
   font-weight: normal;
   width: 130px;
 }
-.newsletter-button{
+.newsletter-button {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -667,8 +666,9 @@ body {
   background: #70908b;
   margin-bottom: 48px;
 }
-.newsletter-button button{
+.newsletter-button button {
   display: flex;
+  cursor: pointer;
   border: none;
   color: #fdfbf8;
   background: transparent;
@@ -701,7 +701,7 @@ body {
   flex-direction: column;
   padding: 21px 16px;
 }
-.footer-info-address h1{
+.footer-info-address h1 {
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: bold;
@@ -709,7 +709,7 @@ body {
   margin-bottom: 16px;
   color: var(--primary-escuro);
 }
-.footer-info-address span{
+.footer-info-address span {
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: normal;
@@ -719,14 +719,14 @@ body {
 }
 .footer-accounts {
   display: flex;
-  margin: 100px 0px
+  margin: 100px 0px;
 }
 .footer-accounts-account {
   display: flex;
   flex-direction: column;
   padding: 21px 16px;
 }
-.footer-accounts-account h1{
+.footer-accounts-account h1 {
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: bold;
@@ -736,13 +736,14 @@ body {
   margin-bottom: 30px;
   color: var(--primary-escuro);
 }
-.footer-accounts-account span{
+.footer-accounts-account span {
   font-family: "Open Sans";
+  cursor: pointer;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   letter-spacing: 0%;
-  text-transform: capitalize; 
+  text-transform: capitalize;
   margin-bottom: 16px;
   color: var(--primary-escuro);
 }
@@ -750,9 +751,8 @@ body {
   display: flex;
   flex-direction: column;
   padding: 21px 16px 21px 32px;
-
 }
-.footer-accounts-help h1{
+.footer-accounts-help h1 {
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: bold;
@@ -762,13 +762,14 @@ body {
   margin-bottom: 30px;
   color: var(--primary-escuro);
 }
-.footer-accounts-help span{
+.footer-accounts-help span {
   font-family: "Open Sans";
+  cursor: pointer;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   letter-spacing: 0%;
-  text-transform: capitalize; 
+  text-transform: capitalize;
   margin-bottom: 16px;
   color: var(--primary-escuro);
 }
@@ -781,7 +782,7 @@ body {
   flex-direction: column;
   padding: 21px 16px;
 }
-.footer-delivery-shop h1{
+.footer-delivery-shop h1 {
   font-family: "Open Sans";
   font-size: 18px;
   font-weight: bold;
@@ -791,13 +792,14 @@ body {
   margin-bottom: 30px;
   color: var(--primary-escuro);
 }
-.footer-delivery-shop span{
+.footer-delivery-shop span {
   font-family: "Open Sans";
+  cursor: pointer;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   letter-spacing: 0%;
-  text-transform: capitalize; 
+  text-transform: capitalize;
   margin-bottom: 16px;
   color: var(--primary-escuro);
 }
@@ -818,11 +820,12 @@ body {
 }
 .footer-delivery-stuff span {
   font-family: "Open Sans";
+  cursor: pointer;
   font-size: 14px;
   font-weight: normal;
   line-height: 18px;
   letter-spacing: 0%;
-  text-transform: capitalize; 
+  text-transform: capitalize;
   margin-bottom: 16px;
   color: var(--primary-escuro);
 }
@@ -851,7 +854,7 @@ body {
   margin-bottom: 16px;
   color: var(--primary-escuro);
 }
-@media(min-width: 321px) and (max-width: 768px) {
+@media (min-width: 321px) and (max-width: 768px) {
   body {
     background: orange;
   }
