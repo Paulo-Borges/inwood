@@ -856,7 +856,7 @@ body {
 }
 @media (min-width: 321px) and (max-width: 768px) {
   body {
-    background: orange;
+    width: 100%;
   }
   .container {
     max-width: 768px;
@@ -879,5 +879,24 @@ body {
   }
   .list img {
     width: 28px;
+  }
+  .item-exclusive {
+    display: flex;
+    text-align: start;
+    align-items: start;
+    width: 908px;
+    margin-top: 176px;
+    font-size: 62px;
+    line-height: 62px;
+    margin-bottom: 16px;
+  }
+  .item-explore {
+    display: flex;
+    text-align: start;
+    align-items: start;
+    width: 539px;
+    font-size: 24px;
+    line-height: auto;
+    font-weight: normal;
   }
 }
