@@ -911,22 +911,19 @@ body {
   .category-lupa {
     display: none;
   }
-  div.category-input {
-    border: 1px solid green;
+  .category-input {
     display: flex;
-    width: 963px;
+    width: 463px;
     height: 81px;
   }
   .category-input input {
-    border: 1px solid red;
-    width: 663px;
+    width: 463px;
     height: 81px;
     display: flex;
-    width: 100%;
   }
   .category-input input::placeholder {
     font-size: 20px;
-    padding: 0px 5px;
+    padding: 0px 10px;
   }
   .category-input img {
     margin-left: 16px;
