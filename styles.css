@@ -162,6 +162,9 @@ body {
   height: 22px;
   margin-top: 16px;
 }
+.desktop-info {
+  display: none;
+}
 .block-bedroom div:first-child {
   background: #adadad;
   margin-bottom: 20px;
@@ -912,14 +915,13 @@ body {
     display: none;
   }
   .category-input {
-    display: flex;
-    width: 463px;
+    margin-left: -70px;
+    width: 433px;
     height: 81px;
   }
   .category-input input {
     width: 463px;
     height: 81px;
-    display: flex;
   }
   .category-input input::placeholder {
     font-size: 20px;
@@ -928,5 +930,7 @@ body {
   .category-input img {
     margin-left: 16px;
   }
- 
+  .desktop-info {
+    display: flex;
+  }
 }
