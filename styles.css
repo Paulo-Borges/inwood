@@ -932,5 +932,62 @@ body {
   }
   .desktop-info {
     display: flex;
+    flex-direction: column;
+  }
+  .desktop-info ul {
+    max-width: 767px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+  }
+  .desktop-info a {
+    text-decoration: none;
+    text-transform: capitalize;
+    font-family: "Roboto";
+    font-size: 24px;
+    font-weight: normal;
+    color: var(--primary-escuro);
+    position: relative;
+  }
+  .desktop-info a::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    background: var(--primary-claro);
+    transition: width 0.5s ease;
+  }
+  .desktop-info a:hover::after {
+    width: 60%;
+  }
+  .desktop-info-categories {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background: var(--primary-claro);
+    max-width: 265px;
+    margin-bottom: 40px;
+  }
+  .desktop-info-categories h1 {
+    color: #ffffff;
+    font-family: "Open Sans";
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+  }
+  .desktop-info-categories img {
+    color: var(--secondary-cinza);
+    width: 13px;
+    height: 20px;
+    filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7484%)
+      hue-rotate(141deg) brightness(104%) contrast(104%);
   }
 }
