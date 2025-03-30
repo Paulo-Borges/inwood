@@ -22,6 +22,7 @@ body {
   height: auto;
 }
 .container {
+  border: 1px solid gray;
   max-width: 320px;
   margin: 20px 0px;
   width: 100%;
@@ -288,16 +289,22 @@ body {
   align-items: center;
   margin-top: 80px;
   margin-bottom: 52px;
-  width: 292px;
+}
+.products h1{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 293px;
   color: var(--primary-escuro);
   font-family: "Playfair Display";
-  font-size: 18px;
+  font-size: 28px;
   line-height: 42px;
   font-weight: bold;
 }
 .products-img {
   margin-top: 60px;
-  margin-left: 26px;
+  margin-left: 3px;
   height: 340px;
 }
 .products-regua {
@@ -318,8 +325,9 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 8px;
   background: #70908b;
-  margin-left: 30px;
+  margin-left: 5px;
   width: 293px;
   height: 73px;
   gap: 10px;
@@ -1005,5 +1013,11 @@ body {
   .block-living {
     display: flex;
     gap: 18px;
+  }
+  .products h1 {
+    margin: 0 auto;
+    width: 517px;
+    font-size: 64px;
+
   }
 }
