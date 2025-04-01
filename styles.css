@@ -290,7 +290,7 @@ body {
   margin-top: 80px;
   margin-bottom: 52px;
 }
-.products h1{
+.products h1 {
   display: flex;
   justify-content: center;
   text-align: center;
@@ -347,7 +347,7 @@ body {
   width: 15px;
   height: 25px;
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7484%)
-      hue-rotate(141deg) brightness(104%) contrast(104%);
+    hue-rotate(141deg) brightness(104%) contrast(104%);
 }
 .package-title {
   display: flex;
@@ -410,7 +410,7 @@ body {
   width: 20px;
   height: 19px;
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7484%)
-      hue-rotate(141deg) brightness(104%) contrast(104%);
+    hue-rotate(141deg) brightness(104%) contrast(104%);
 }
 .package-img {
   display: flex;
@@ -1031,16 +1031,16 @@ body {
     margin-top: 100px;
   }
   .products-imgs img:first-child {
-   width: 416px;
-   height: 585px;
-   overflow: hidden;
+    width: 416px;
+    height: 585px;
+    overflow: hidden;
   }
   .products-imgs img:last-child {
     width: 310px;
     height: 505px;
     overflow: hidden;
-   }
-   .products-regua {
+  }
+  .products-regua {
     margin-top: 0px;
   }
   .products-regua-cinza {
@@ -1066,5 +1066,13 @@ body {
   .products-all img {
     width: 10px;
     height: 20px;
+  }
+  .package-title {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 100px 100px 60px 100px;
+    width: 529px;
+    font-size: 72px;
   }
 }
