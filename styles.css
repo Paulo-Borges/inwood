@@ -349,6 +349,9 @@ body {
   filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7484%)
     hue-rotate(141deg) brightness(104%) contrast(104%);
 }
+.package-desktop {
+  display: none;
+}
 .package-title {
   display: flex;
   justify-content: center;
@@ -1075,5 +1078,53 @@ body {
     margin: 100px 100px 60px 100px;
     width: 529px;
     font-size: 72px;
+  }
+  .package-desktop {
+    display: flex;
+    border-radius: 16px;
+    margin: 0 auto;
+    width: 728px;
+    height: 365px;
+    background: #d9d9d9;
+    position: relative;
+  }
+  .package-desktop-img img{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    width: 48px;
+    height: 50px;
+  }
+  .package-subtitle {
+    display: flex;
+    justify-content: start;
+    text-align: start;
+    margin: 8px 0px 20px 0px;
+    width: 347px;
+    font-size: 36px;
+  }
+  .package-vetor {
+    display: flex;
+    gap: 10px;
+    margin: 0px 0px 30px 0px;
+  }
+  .package-number {
+    margin: 0px 0px 30px 0px;
+    width: 347px;
+    font-size: 28px;
+  }
+  .package-add {
+    margin: 0px 0px 30px 0px;
+    width: 178px;
+    height: 46px;
+  }
+  .package-add h1 {
+    width: 83px;
+    font-size: 14px;
+  }
+  .package-add img {
+    width: 15px;
+    height: 14px;
   }
 }
