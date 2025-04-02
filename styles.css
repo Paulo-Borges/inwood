@@ -1054,6 +1054,7 @@ body {
     height: 5px;
   }
   .products-all {
+    cursor: pointer;
     width: 265px;
     gap: 1px;
     height: 73px;
