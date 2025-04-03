@@ -1104,22 +1104,22 @@ body {
     display: flex;
     justify-content: start;
     text-align: start;
-    margin: 8px 0px 20px 0px;
+    margin: 8px 0px 20px 8px;
     width: 347px;
     font-size: 36px;
   }
   .package-vetor {
     display: flex;
     gap: 10px;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 30px 8px;
   }
   .package-number {
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 30px 8px;
     width: 347px;
     font-size: 28px;
   }
   .package-add {
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 30px 8px;
     width: 178px;
     height: 46px;
   }
@@ -1135,15 +1135,63 @@ body {
     display: flex;
     flex-direction: column-reverse;
   }
+  .package-description-desktop-img {
+    display: flex;
+    gap: 10px;
+  }
+  .package-description-desktop-img .package-img {
+      width: 241px;
+      height: 183px;
+      margin: 0px 0px 30px 8px;
+  }
+  .package-description-desktop-img .package-img-desktop {
+    width: 480px;
+    height: 183px;
+    border-radius: 8px;
+    position: relative;
+    background: var(--secondary-orange);
+}
+.package-img-desktop .package-subtitle {
+  width:  351px;
+  color: var(--primary-escuro);
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: normal;
+}
+.package-img-desktop .package-vetor {
+  width:  112px;
+  height: 18px;
+}
+.package-img-desktop .package-number {
+  width:  240px;
+  font-family: "Open Sans";
+  font-size: 16px;
+  font-weight: normal;
+}
+.package-img-desktop span.package-number:first-child {
+  width:  80px;
+  font-family: "Open Sans";
+  font-size: 22px;
+  font-weight: bold;
+}
+.package-img-desktop .package-number-img img{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width:  36px;
+  height: 30px;
+}
   .package-img-desktop {
     display: flex;
+    padding: 10px;
+    align-items: baseline;
   }
   .package-description span {
     font-weight: bold;
-    margin: 0px 0px 30px 0px;
+    margin: 0px 0px 30px 8px;
   }
   .package-description p {
-    margin: 30px 0px;
+    margin: 30px 0px 30px 8px;
   }
   .package-regua {
     margin: 0 auto;
