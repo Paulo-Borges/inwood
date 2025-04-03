@@ -419,10 +419,14 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  border-radius: 8px;
   width: 288px;
   height: 280px;
   background: #d9d9d9;
   margin: 0px 0px 30px 17px;
+}
+.package-img-desktop {
+  display: none;
 }
 .package-description span {
   color: var(--primary-escuro);
@@ -1126,5 +1130,24 @@ body {
   .package-add img {
     width: 15px;
     height: 14px;
+  }
+  .package-description-desktop {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .package-img-desktop {
+    display: flex;
+  }
+  .package-description span {
+    font-weight: bold;
+    margin: 0px 0px 30px 0px;
+  }
+  .package-description p {
+    margin: 30px 0px;
+  }
+  .package-regua {
+    margin: 0 auto;
+    width: 700px;
+    height: 2px;
   }
 }
