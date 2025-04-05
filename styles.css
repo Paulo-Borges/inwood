@@ -22,7 +22,7 @@ body {
   height: auto;
 }
 .container {
-  border: 1px solid gray;
+  /* border: 1px solid gray; */
   max-width: 320px;
   margin: 20px 0px;
   width: 100%;
@@ -1092,7 +1092,7 @@ body {
     background: #d9d9d9;
     position: relative;
   }
-  .package-desktop-img img{
+  .package-desktop-img img {
     position: absolute;
     bottom: 0;
     right: 0;
@@ -1140,9 +1140,9 @@ body {
     gap: 10px;
   }
   .package-description-desktop-img .package-img {
-      width: 241px;
-      height: 183px;
-      margin: 0px 0px 30px 8px;
+    width: 241px;
+    height: 183px;
+    margin: 0px 0px 30px 8px;
   }
   .package-description-desktop-img .package-img-desktop {
     width: 480px;
@@ -1150,37 +1150,37 @@ body {
     border-radius: 8px;
     position: relative;
     background: var(--secondary-orange);
-}
-.package-img-desktop .package-subtitle {
-  width:  351px;
-  color: var(--primary-escuro);
-  font-family: "Open Sans";
-  font-size: 22px;
-  font-weight: normal;
-}
-.package-img-desktop .package-vetor {
-  width:  112px;
-  height: 18px;
-}
-.package-img-desktop .package-number {
-  width:  240px;
-  font-family: "Open Sans";
-  font-size: 16px;
-  font-weight: normal;
-}
-.package-img-desktop span.package-number:first-child {
-  width:  80px;
-  font-family: "Open Sans";
-  font-size: 22px;
-  font-weight: bold;
-}
-.package-img-desktop .package-number-img img{
-  position: absolute;
-  bottom: 0;
-  right: 0;
-  width:  36px;
-  height: 30px;
-}
+  }
+  .package-img-desktop .package-subtitle {
+    width: 351px;
+    color: var(--primary-escuro);
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: normal;
+  }
+  .package-img-desktop .package-vetor {
+    width: 112px;
+    height: 18px;
+  }
+  .package-img-desktop .package-number {
+    width: 240px;
+    font-family: "Open Sans";
+    font-size: 16px;
+    font-weight: normal;
+  }
+  .package-img-desktop span.package-number:first-child {
+    width: 80px;
+    font-family: "Open Sans";
+    font-size: 22px;
+    font-weight: bold;
+  }
+  .package-img-desktop .package-number-img img {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 36px;
+    height: 30px;
+  }
   .package-img-desktop {
     display: flex;
     padding: 10px;
