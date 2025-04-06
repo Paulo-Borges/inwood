@@ -1198,4 +1198,28 @@ body {
     width: 700px;
     height: 2px;
   }
+  .creation-more {
+    width: 400px;
+    height: 503px;
+    margin-top: 30px;
+  }
+  .creation-more h1 {
+    width: 360px;
+    font-size: 48px;
+    line-height: 120%;
+  }
+  .creation-more h2 {
+    width: 360px;
+    font-size: 24px;
+    line-height: 28px;
+    font-weight: 500;
+  }
+  .creation-more h3 {
+    width: 43px;
+    padding: 32px 16px;
+    color: var(--secondary-orange);
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: bold;
+  }
 }
