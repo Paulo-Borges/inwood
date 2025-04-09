@@ -491,6 +491,12 @@ body {
   font-size: 18px;
   font-weight: bold;
 }
+.creation-more-more-bg {
+  display: none;
+}
+.creation-more-more-img {
+  display: none;
+}
 .creation-btn {
   height: 343px;
   width: 80px;
