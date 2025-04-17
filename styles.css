@@ -1250,4 +1250,18 @@ body {
     display: flex;
     gap: 20px;
   }
+  .creation-btn {
+    margin-top: 12px;
+    height: 537px;
+    width: 300px;
+  }
+  .creation-btn-exp {
+    height: 57px;
+    padding: 20px 0px 0px 20px;
+    margin: 450px 0px 0px 70px;
+    width: 194px;
+  }
+  .creation-btn-exp h1 {
+    width: 146px;
+  }
 }
