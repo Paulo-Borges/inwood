@@ -20,6 +20,7 @@ body {
   justify-content: center;
   align-items: center;
   height: auto;
+  width: 100%;
 }
 .container {
   /* border: 1px solid gray; */
@@ -1227,5 +1228,26 @@ body {
     font-family: Roboto;
     font-size: 18px;
     font-weight: bold;
+  }
+  .creation-more-more {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+  }
+  .creation-more-more-bg {
+    display: flex;
+    width: 87px;
+    background: var(--primary-escuro);
+    height: 2px;
+  }
+  .creation-more-more-bg-branca {
+    display: flex;
+    width: 27px;
+    background: var(--secondary-amarelo);
+    height: 2px;
+  }
+  .creation-more-more-img {
+    display: flex;
+    gap: 20px;
   }
 }
