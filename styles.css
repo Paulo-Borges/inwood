@@ -1264,4 +1264,29 @@ body {
   .creation-btn-exp h1 {
     width: 146px;
   }
+  .benefits h1 {
+    margin-top: 100px;
+    font-size: 48px;
+    width: 627px;
+  }
+
+  .benefits-group {
+    display: flex;
+    margin-bottom: 100px;
+  }
+  .secondary img {
+    background: var(--secondary-rosa);
+  }
+  .primary img {
+    background: #caf3e5;
+  }
+  .white img {
+    background: #fff;
+  }
+  .benefits-items h2 {
+    width: 208px;
+  }
+  .benefits-items h3 {
+    width: 208px;
+  }
 }
