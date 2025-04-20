@@ -584,6 +584,9 @@ body {
   color: var(--primary-escuro);
   width: 288px;
 }
+.testimonials-desktop {
+  display: none;
+}
 .testimonials-img {
   background: #d9d9d9;
   width: 288px;
@@ -1288,5 +1291,49 @@ body {
   }
   .benefits-items h3 {
     width: 208px;
+  }
+  .testimonials-title h1 {
+    font-size: 48px;
+    line-height: 62px;
+    width: 286px;
+  }
+  .testimonials-title span {
+    font-size: 24px;
+    line-height: 36px;
+    width: 488px;
+  }
+  .testimonials-bg {
+    display: flex;
+    gap: 20px;
+  }
+  .testimonials-img {
+    width: 421px;
+    height: 410px;
+  }
+  .testimonials-bg span {
+    display: flex;
+    font-family: "Open Sans";
+    text-align: start;
+    font-size: 18px;
+    line-height: 23px;
+    font-weight: normal;
+    color: var(--primary-escuro);
+    width: 288px;
+  }
+  .testimonials-bg h1 {
+    display: flex;
+    margin-top: 24px;
+    font-family: "Roboto";
+    text-align: start;
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--primary-escuro);
+    width: 148px;
+  }
+  .testimonials-desktop {
+    flex-direction: column-reverse;
+  }
+  .testimonials-regua {
+    display: none;
   }
 }
