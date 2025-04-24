@@ -1336,4 +1336,21 @@ body {
   .testimonials-regua {
     display: none;
   }
+  .newsletter-img {
+    width: 768px;
+    height: 600px;
+  }
+  /* .newsletter-join h1 {
+    font-family: "Play Display";
+    font-size: 36px;
+    line-height: 52px;
+    font-weight: normal;
+    margin-top: 48px;
+    text-align: center;
+    color: var(--primary-escuro);
+    width: 288px;
+  }
+  .newsletter-join span {
+    font-weight: bold;
+  } */
 }
