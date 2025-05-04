@@ -1,0 +1,65 @@
+.creation {
+  display: flex;
+  padding: 30px 0px;
+  justify-content: space-between;
+}
+.creation-more {
+  width: 195px;
+  height: 311px;
+  margin-top: 15px;
+  background: #70908b;
+  border-top-right-radius: 14px;
+  border-bottom-right-radius: 14px;
+}
+.creation-more h1 {
+  width: 163px;
+  padding: 50px 16px 16px 16px;
+  color: #fdfbf8;
+  font-family: "Playfair Display";
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: bold;
+  /* margin: 0px 0px 30px 20px; */
+}
+.creation-more h2 {
+  padding: 0px 16px;
+  width: 193px;
+  color: var(--secondary-orange);
+  font-family: "Open Sans";
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: regular;
+}
+.creation-more h3 {
+  width: 43px;
+  padding: 32px 16px;
+  color: var(--secondary-orange);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: bold;
+}
+.creation-more-more-bg {
+  display: none;
+}
+.creation-more-more-img {
+  display: none;
+}
+.creation-btn {
+  height: 343px;
+  width: 80px;
+  border-bottom-left-radius: 8px;
+  border-top-left-radius: 8px;
+  background: #d9d9d9;
+}
+.creation-btn-exp {
+  height: 43px;
+  width: 40px;
+  padding: 10px 30px 0px 20px;
+  margin: 250px 0px 0px 30px;
+  background: #ffffff;
+}
+.creation-btn-exp h1 {
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: normal;
+}
