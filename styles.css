@@ -1,63 +1,7 @@
 @import "./css/geral.css";
 @import "./css/itens.css";
+@import "./css/category.css";
 
-.category {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 80px;
-}
-.category-explore h1 {
-  display: flex;
-  text-align: center;
-  font-family: "Playfair Display";
-  font-size: 28px;
-  max-width: 288px;
-  line-height: 42px;
-  font-weight: bold;
-  color: var(--primary-escuro);
-  margin-bottom: 36px;
-}
-.category-input-lupa {
-  display: flex;
-  gap: 20px;
-  max-width: 288px;
-}
-.category-input {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  /* max-width: 216px; */
-  height: 55px;
-  margin-bottom: 60px;
-  background: var(--secondary-rosa);
-}
-.category-input input {
-  background: transparent;
-  border: none;
-}
-.category-input input::placeholder {
-  font-family: "Roboto";
-  font-size: 18px;
-  line-height: 23px;
-  padding: 0px 0px 0px 30px;
-  font-weight: normal;
-  color: var(--border-primary);
-}
-.category-input img {
-  width: 20px;
-  height: 20px;
-  margin-left: 30px;
-}
-.category-lupa img {
-  width: 30px;
-  height: 22px;
-  margin-top: 16px;
-}
-.desktop-info {
-  display: none;
-}
 .block-bedroom div:first-child {
   background: #adadad;
   margin-bottom: 20px;
