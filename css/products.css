@@ -1,0 +1,68 @@
+.products {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  margin-top: 80px;
+  margin-bottom: 52px;
+}
+.products h1 {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 293px;
+  color: var(--primary-escuro);
+  font-family: "Playfair Display";
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: bold;
+}
+.products-img {
+  margin-top: 60px;
+  margin-left: 3px;
+  height: 340px;
+}
+.products-imgs {
+  display: none;
+}
+.products-regua {
+  display: flex;
+  margin-top: 60px;
+}
+.products-regua-cinza {
+  background: #70908b;
+  width: 80px;
+  height: 6px;
+}
+.products-regua-blue {
+  background: var(--primary-claro);
+  width: 213px;
+  height: 1px;
+}
+.products-all {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+  background: #70908b;
+  margin-left: 5px;
+  width: 293px;
+  height: 73px;
+  gap: 10px;
+  margin-top: 60px;
+}
+.products-all h1 {
+  color: #ffffff;
+  width: 150px;
+  font-family: "Open Sans";
+  font-size: 18px;
+  font-weight: bold;
+}
+.products-all img {
+  width: 15px;
+  height: 25px;
+  filter: brightness(0) saturate(100%) invert(100%) sepia(0%) saturate(7484%)
+    hue-rotate(141deg) brightness(104%) contrast(104%);
+}
