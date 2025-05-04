@@ -1,0 +1,52 @@
+.itens-container {
+  background: var(--secondary-rosa);
+  border-bottom-right-radius: 30px;
+  border-bottom-left-radius: 30px;
+}
+.item-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.item-exclusive {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 288px;
+  margin-top: 206px;
+  font-family: "Playfair Display";
+  font-size: 40px;
+  line-height: 52px;
+  font-weight: bold;
+  color: var(--primary-escuro);
+}
+.item-explore {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  width: 287px;
+  margin-bottom: 52px;
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: normal;
+  color: var(--primary-escuro);
+}
+.item-shop {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background: var(--primary-claro);
+  width: 171px;
+  height: 55px;
+  border-radius: 8px;
+  margin-bottom: 206px;
+}
+.item-shop span {
+  font-family: "Open Sans";
+  font-size: 20px;
+  line-height: 23px;
+  font-weight: bold;
+  color: var(--secondary-cinza);
+}
