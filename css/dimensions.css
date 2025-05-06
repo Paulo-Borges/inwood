@@ -472,6 +472,9 @@
     padding-left: 40px;
     width: 688px;
   }
+  .newsletter-input input {
+    width: 90%;
+  }
 
   .newsletter-input input::placeholder {
     padding-left: 50px;
