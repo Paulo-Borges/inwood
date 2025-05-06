@@ -483,22 +483,15 @@
   }
   .newsletter-button {
     margin-left: 50px;
-    background: var(--base-color);
+    background: #70908b;
     width: 250px;
     height: 68px;
   }
-  /* .newsletter-button button {
-      display: flex;
-      cursor: pointer;
-      border: none;
-      color: #fdfbf8;
-      background: transparent;
-      font-family: "Roboto";
-      font-size: 24px;
-      font-weight: normal;
-      text-align: center;
-      align-items: center;
-      justify-content: center;
-      width: 107px;
-    } */
+  .newsletter-button button {
+    cursor: pointer;
+    color: #fdfbf8;
+  }
+  .footer-info-rede {
+    width: 286px;
+  }
 }
