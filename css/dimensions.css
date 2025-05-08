@@ -494,4 +494,17 @@
   .footer-info-rede {
     width: 286px;
   }
+  .footer-accounts-account {
+    padding-right: 12rem;
+  }
+  .footer-delivery-shop {
+    padding-right: 12rem;
+  }
+  .footer-copyright {
+    display: flex;
+    margin-left: 12px;
+  }
+  .footer-copyright br {
+    display: none;
+  }
 }

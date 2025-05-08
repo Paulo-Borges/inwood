@@ -49,4 +49,5 @@
   line-height: 23px;
   font-weight: bold;
   color: var(--secondary-cinza);
+  cursor: pointer;
 }
