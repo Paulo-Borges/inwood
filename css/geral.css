@@ -52,6 +52,9 @@ body {
   list-style: none;
   cursor: pointer;
 }
+.list li img {
+  cursor: pointer;
+}
 .list ul {
   display: flex;
   gap: 20px;
