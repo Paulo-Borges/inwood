@@ -61,19 +61,18 @@
     width: 150px;
     font-size: 18px;
   }
-  /*  .products-all img {
-      width: 10px;
-      height: 20px;
-    }
-    .package-title {
-      display: flex;
-      justify-content: center;
-      text-align: center;
-      margin: 100px 100px 60px 100px;
-      width: 529px;
-      font-size: 72px;
-    }
-    .package-desktop {
+  .package h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 100px auto;
+  }
+
+  .package-title {
+    width: 529px;
+    height: 96px;
+  }
+  /*  .package-desktop {
       display: flex;
       border-radius: 16px;
       margin: 0 auto;
