@@ -13,16 +13,16 @@
     height: 17rem;
   }
   .block-bedroom div:last-child {
-    width: 462px;
-    height: 277px;
+    width: 29rem;
+    height: 17rem;
   }
   .block-meeting div:last-child {
-    width: 462px;
-    height: 277px;
+    width: 29rem;
+    height: 17rem;
   }
   .block-meeting div:first-child {
-    width: 462px;
-    height: 277px;
+    width: 29rem;
+    height: 17rem;
   }
   .block-living div:last-child {
     width: 29rem;
@@ -55,7 +55,7 @@
     height: 3px;
   }
   .products-all {
-    width: 265px;
+    width: 16rem;
   }
   .products-all h1 {
     width: 150px;
@@ -71,16 +71,10 @@
     width: 529px;
     height: 96px;
   }
-  /*  .package-desktop {
-      display: flex;
-      border-radius: 16px;
-      margin: 0 auto;
-      width: 728px;
-      height: 365px;
-      background: #d9d9d9;
-      position: relative;
-    }
-    .package-desktop-img img {
+  .package-desktop {
+    width: 1024px;
+  }
+  /* .package-desktop-img img {
       position: absolute;
       bottom: 0;
       right: 0;
