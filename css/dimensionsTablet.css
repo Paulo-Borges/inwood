@@ -74,6 +74,9 @@
   .package-desktop {
     width: 1024px;
   }
+  .package-laptop {
+    display: flex;
+  }
   /* .package-desktop-img img {
       position: absolute;
       bottom: 0;
